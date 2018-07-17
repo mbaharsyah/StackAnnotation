@@ -137,11 +137,6 @@ public class MyStringStackTest extends TestCase {
         assertTrue (stack.isEmpty());
 	}
 	
-	@Test
-	public void thisTestIsFailing() {
-		fail("fail");
-	}
-	
 	public static junit.framework.Test suite() {
 		TestSuite suite = new TestSuite("Test for default package");
 		System.out.println ("Test for default package");
